@@ -1,0 +1,104 @@
+body {
+	background-image: url("../images/background.png");
+	font-family: 'bignoodleo';
+	font-weight: lighter;
+	font-size: 21px;
+	color: white;
+}
+
+img {
+	width: 500px;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+	font-family: 'bignoodle';
+}
+
+#button {
+	width: 500px;
+	position: fixed;
+	top: 339px;
+	left: 50%;
+	margin-left: -250px; 
+	margin-right: 0;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+
+table tr td {
+	border: 1px solid black;
+}
+
+td {
+	width: 150px;
+	text-align: center;
+}
+
+#results {
+	border-collapse: separate;
+}
+
+#results tr td {
+	border: none;
+}
+
+#results td {
+	width: 300px;
+	font-size: 28px;
+}
+
+#total {
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+}
+
+#scores {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+
+#legend {
+	position: fixed;
+	bottom: 150px;
+	right: 50px;
+}
+
+button {
+	width: 144px;
+	height: 44px;
+	border: none;
+	background-color: orange;
+	font-family: 'bignoodleo';
+	font-size: 28px;
+	color: white;
+}
+
+.fade {
+	-webkit-animation: fade 0.5s ease-out;
+}
+
+@-webkit-keyframes fade{
+  0%   { transform: translateY(+250px) }
+  100% { transform: translateY(0)}
+}
+
+.fade2 {
+	-webkit-animation: fade2 0.5s ease-out;
+}
+
+@-webkit-keyframes fade2{
+  0%   { transform: translateY(+250px) }
+  100% { transform: translateY(0)}
+}
